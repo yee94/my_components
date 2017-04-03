@@ -37,7 +37,7 @@ git clone https://github.com/xiaobebe/my_components.git
 ```
 在vue中引用
 
-```
+```js
 /*比如这里引用Material中的Card*/
 
 import md-card from "src/material/mdButton"
@@ -46,7 +46,7 @@ import md-card from "src/material/mdButton"
 
 在vue中使用
 
-```
+```html
 <md-card>
   <md-card-header>
     <md-card-header-text>
