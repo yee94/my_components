@@ -29,3 +29,39 @@
   - [Dialog/Modal](https://vuematerial.github.io/#/components/dialog)
   - [File](https://vuematerial.github.io/#/components/file)
   - [List](https://vuematerial.github.io/#/components/list)
+
+# 使用
+先下载到项目中
+```
+git clone https://github.com/xiaobebe/my_components.git
+```
+在vue中引用
+
+```
+/*比如这里引用Material中的Card*/
+
+import md-card from "src/material/mdButton"
+
+```
+
+在vue中使用
+
+```
+<md-card>
+  <md-card-header>
+    <md-card-header-text>
+      <div class="md-title">Title goes here</div>
+      <div class="md-subhead">Subtitle here</div>
+    </md-card-header-text>
+
+    <md-card-media>
+      <img src="assets/avatar-2.jpg" alt="People">
+    </md-card-media>
+  </md-card-header>
+
+  <md-card-actions>
+    <md-button>Action</md-button>
+    <md-button>Action</md-button>
+  </md-card-actions>
+</md-card>
+```
